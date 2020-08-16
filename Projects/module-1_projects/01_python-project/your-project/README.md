@@ -7,7 +7,6 @@
 
 This repository contains:
 
-.gitignore
 README.md
 Game_Hangman.ipynb
 
@@ -32,7 +31,7 @@ I chose to build a Hangman game as it's is a classic word game played worldwide.
 - Have fun!
 
 ## Workflow
-I decided the theme of my game and then I wrote down all the variables that I would need to build the game. After it was done, I started coding the game using functions to shape the game. I ran Jupyter Notebook several times in order to find errors and handle them. After all was completed I wrote simple but friendly messages to be printed to the player. The final step was to succesfully test the game.
+I decided the theme of my game and then I wrote down all the variables that I would need to build the game. After it was done, I started coding the game using functions to shape it. I ran Jupyter Notebook several times in order to find errors and handle them. After all was completed I wrote simple but friendly messages to be printed to the player. The final step was to succesfully test the game.
 
 ## Organization
 I used jupyter notebook for writing the code. My repository consists of two files: Game_Hangman.ipynb and README.md
