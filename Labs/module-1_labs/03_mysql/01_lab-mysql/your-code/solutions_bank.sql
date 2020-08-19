@@ -119,6 +119,16 @@ group by type
 396	PRIJEM	1028138.6999740601	
 396	VYDAJ	1485814.400024414
 7. From the previous output, translate the values for type to English, rename the column to transaction_type, round total_amount down to an integer
+have to finish it 
+SELECT
+	account_id
+        WHEN type = 'PRIJEN' THEN 'INCOMING'
+	WHEN type = 'VYDAJ' THEN 'OUTPUT'
+END AS type_english
+FROM bank.trans
+WHERE product_id = '396'
+group by type
+
 Result:
 
 396	INCOMING	1028138	
